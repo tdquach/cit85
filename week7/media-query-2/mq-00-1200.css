@@ -1,0 +1,35 @@
+body {
+    display: flex;
+}
+
+div {
+    border: 1px solid black;
+    height: 100px;
+    flex-flow: row wrap;
+    flex-direction: row;
+}
+
+.one {
+    width: 100%;
+    background-color: yellow;
+}
+
+.two {
+    background-color: green;
+    width: 20%;
+}
+
+.three {
+    background-color: pink;
+    width:20%;
+}
+
+.four {
+    width: 60%;
+    background-color: purple;
+}
+
+.five {
+    background-color: blue;
+    width: 100%;
+}
