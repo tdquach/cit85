@@ -1,0 +1,35 @@
+p {
+    font-family: serif;
+    margin: 20px;
+    width: 550px;
+    text-indent: 1rem;
+}
+
+#italic {
+    font: 12px/14px sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#phrase {
+    letter-spacing: 1rem;
+}
+
+#linethrough {
+    text-decoration: line-through;
+}
+
+h1 {
+    font-size:4rem;
+    text-shadow: 20px 12px 20px blue;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+    color:blue;
+}
