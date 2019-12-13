@@ -1,0 +1,20 @@
+
+div {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    padding-top: 50%;
+    color:gray;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes change-color {
+    0% { background-color: gray}
+    30% { background-color: #66bf39}
+    60% { background-color: #eb670f}
+    90% {background-color: coral}
+    100% {background-color: #864cbf}
+}
