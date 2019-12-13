@@ -1,0 +1,15 @@
+div {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    padding-top: 50%;
+    background:gray;
+    }
+    
+    div:hover {
+        color: coral;
+        background-color: hotpink;
+        transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: ease;
+    }
